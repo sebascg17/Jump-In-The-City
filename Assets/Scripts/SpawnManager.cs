@@ -22,7 +22,7 @@ public class SpawnManager : MonoBehaviour
         {
             SpawnObstaculo();
 
-            float intervalo = Random.Range(0.5f, 3f); // intervalo aleatorio
+            float intervalo = Random.Range(0.8f, 4f); // intervalo aleatorio
             yield return new WaitForSeconds(intervalo);
         }
     }
